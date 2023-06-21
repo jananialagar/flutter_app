@@ -57,7 +57,7 @@ class Homepage extends StatelessWidget {
                 alignment: Alignment.topCenter,
                 children: [
                   Text(
-                    "hey this mine 1st app ",
+                    "eruma maadu ",
                     style: TextStyle(color: Colors.amber),
                   )
                 ],
