@@ -24,7 +24,7 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('OKKali'),
+        title: Text('LONDON'),
         backgroundColor: Color.fromARGB(255, 69, 48, 41),
       ),
       body: Center(
@@ -56,6 +56,11 @@ class Homepage extends StatelessWidget {
               child: Stack(
                 alignment: Alignment.topCenter,
                 children: [
+                  Image.asset(
+                    'assets/images/desktop-wallpaper-london-in-black-and-white-ultra-background-for-u-tv.jpg',
+                    height: 320,
+                    width: 300,
+                  ),
                   Text(
                     "eruma maadu ",
                     style: TextStyle(color: Colors.amber),
